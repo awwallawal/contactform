@@ -3,9 +3,12 @@ let name = document.querySelector("#name");
 let email = document.querySelector("#email");
 let message = document.querySelector("#message");
 
-formContainer.addEventListener('submit', function(e){
+// formContainer.addEventListener('submit', function(e){
 
- name.value = "";
- email.value = "";
- message.value = "";
-})
+//  name.value = "";
+//  email.value = "";
+//  message.value = "";
+// })
+/*
+We need to disable the JavaScript function because this method requires pure HTML and CSS for function. 
+*/
