@@ -4,7 +4,6 @@ let email = document.querySelector("#email");
 let message = document.querySelector("#message");
 
 formContainer.addEventListener('submit', function(e){
- e.preventDefault();
  name.value = "";
  email.value = "";
  message.value = "";
