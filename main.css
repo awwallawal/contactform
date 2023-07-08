@@ -1,0 +1,109 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+@font-face {
+ font-family: Roboto;
+ src: url(./font/Roboto-Black.ttf);
+ src: url(./font/Roboto-Bold.ttf);
+ src: url(./font/Roboto-Italic.ttf);
+ src: url(./font/Roboto-Light.ttf);
+ src: url(./font/Roboto-Medium.ttf);
+ src: url(./font/Roboto-Regular.ttf);
+}
+
+body{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: Roboto, sans-serif;
+}
+
+div{
+ border: 1px solid black;
+}
+
+#outer-container{
+ display: flex;
+ width: 70%;
+ height: 75%;
+ justify-content: space-between;
+}
+
+#f-cont{
+ display: flex;
+ border: 1px solid red;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ width: 40%;
+ padding-left: 30px;
+}
+
+#f-cont > h3 {
+ margin-bottom: 2%;
+}
+
+#f-cont > h5 {
+ font-weight: 300;
+}
+
+#form-container{
+ margin-top: 5%;
+ border: 1px solid green;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ width: 90%;
+ padding: 3%;
+}
+
+#i-cont{
+ width: 60%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+#image-container{
+ width: 100%;
+ height: 100%;
+ background-image: url(./contact_us.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+#form-container > input, #form-container > textarea{
+ width: 100%;
+ margin: 0% 0 7% 0;
+ padding: 2.5%;
+}
+
+#form-container > button{
+ width: 100%;
+ padding: 6px 12px;
+ background-color: black;
+}
+
+#form-container > button > a{
+ text-decoration: none;
+ color: papayawhip;
+}
+
+label{
+ margin-left: 5%;
+ margin-bottom: -3%;
+ z-index: 1;
+ background-color: white;
+ padding: 0 1%;
+ font-weight: bold;
+ color: rgb(62, 61, 61);
+ text-shadow: 0 0 1px black;
+}

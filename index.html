@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact Form </title>
+ <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+ <div id="outer-container">
+
+  <div id="f-cont">
+   <h3>We are glad to hear from you!</h3>
+   <h5>Customer satisfaction is our watchword.</h5>
+   <form id="form-container" action="https://formsubmit.co/lawalkolade@gmail.com" method="POST">
+    <label for="name"><small>Your Name</small></label>
+    <input type="text" name="name" id="name" >
+    
+    <label for="email"><small>Your Email</small></label>
+    <input type="email" name="email" placeholder="Email Address" id="email">
+
+    <label for="message"><small>Your Message</small></label>
+    <textarea name="message" id="message" cols="37" rows="10"></textarea>
+
+    <input type="hidden" name="_next" value="./pages/thankyou.html">
+
+    <button type="submit"><a href="./pages/thankyou.html">Send</a></button>
+  </form>
+
+  <small>Prefer direct email? Reach us at <a href="mailto:lawalkolade@gmail.com">hello@devawwal.com</a></small>
+
+  </div>
+
+
+  <div id="i-cont">
+   <div id="image-container">
+
+   </div>
+  </div>
+ </div>
+ 
+ <script src="./app.js"></script>
+</body>
+</html>
