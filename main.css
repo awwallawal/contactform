@@ -23,20 +23,17 @@ body{
  font-family: Roboto, sans-serif;
 }
 
-div{
- border: 1px solid black;
-}
-
 #outer-container{
  display: flex;
  width: 70%;
  height: 75%;
  justify-content: space-between;
+ border: 5px solid grey;
 }
 
 #f-cont{
  display: flex;
- border: 1px solid red;
+ /* border: 1px solid red; */
  flex-direction: column;
  justify-content: center;
  align-items: flex-start;
@@ -45,7 +42,8 @@ div{
 }
 
 #f-cont > h3 {
- margin-bottom: 2%;
+ margin-top: 7%;
+ margin-bottom: 1%;
 }
 
 #f-cont > h5 {
@@ -54,13 +52,12 @@ div{
 
 #form-container{
  margin-top: 5%;
- border: 1px solid green;
+ /* border: 1px solid green; */
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: flex-start;
  width: 90%;
- padding: 3%;
 }
 
 #i-cont{
@@ -90,11 +87,16 @@ div{
  width: 100%;
  padding: 6px 12px;
  background-color: black;
+ margin-bottom: 2%;
+ color: papayawhip;
+ cursor: pointer;
 }
 
 #form-container > button > a{
  text-decoration: none;
  color: papayawhip;
+ /* Deliberately set it to none as it was used for testing the display of the thank you page on the local machine. */
+ display: none;
 }
 
 label{
