@@ -83,13 +83,16 @@ body{
  padding: 2.5%;
 }
 
-#form-container > button{
- width: 100%;
+button {
  padding: 6px 12px;
  background-color: black;
- margin-bottom: 2%;
  color: papayawhip;
  cursor: pointer;
+}
+
+#form-container > button{
+ width: 100%;
+ margin-bottom: 2%;
 }
 
 #form-container > button > a{
@@ -108,4 +111,32 @@ label{
  font-weight: bold;
  color: rgb(62, 61, 61);
  text-shadow: 0 0 1px black;
+}
+
+#appreciation-container{
+ background-color: #006494;
+ color: #101111;
+}
+
+#appreciation-message{
+ background-color: rgb(192, 204, 223);
+ padding:  30px 20px 10px 20px;
+ border-radius: 20px;
+ width: 50%;
+ height: 50%;
+}
+
+#appreciation-message > h1, p, button {
+ margin-bottom: 2%;
+}
+
+#appreciation-message > button {
+ margin-top: 4%;
+ background-color: #3e92cc;
+ border-radius: 6px;
+}
+
+#appreciation-message > button > a {
+ text-decoration: none;
+ color: #101111;
 }
